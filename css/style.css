@@ -137,6 +137,9 @@ body {
 .footer {
   background-color: var(--secondary-bg-color);
 }
+.footer-accent {
+  color: #ffffff;
+}
 .adress {
   font-size: 14px;
   line-height: 1.71;
