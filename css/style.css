@@ -19,6 +19,7 @@ body {
   --accent-bg-color: #2196f3;
   --button-primery-bcg-color: #2196f3;
   --button-secondary-bcg-color: #f5f4fa;
+  --secondary-bg-color: #2f303a;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -66,6 +67,9 @@ body {
 /* main / /Уникальный контент*/
 
 /*  hero/ hero /Герой*/
+.hero-section {
+  background-color: var(--secondary-bg-color);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -130,13 +134,21 @@ body {
   text-align: center;
 }
 /*  Footer / / Подвал*/
+.footer {
+  background-color: var(--secondary-bg-color);
+}
 .adress {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
+  font-style: normal;
 }
 .auth-footer .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   color: #ffffff99;
+  text-decoration: none;
 }
 .auth-footer .link:hover,
 .auth-footer .link:focus {
